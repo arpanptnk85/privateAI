@@ -1,0 +1,27 @@
+# Login API
+POST http://localhost:8000/login/
+Content-Type: application/json
+
+{
+    "username": "zack",
+    "password": "pass1234!"
+}
+
+###
+
+# Signup API
+POST http://localhost:8000/signup/
+Content-Type: application/json
+
+{
+    "username": "jones",
+    "password": "Pass1234!",
+    "email": "jj.jones@gmail.com"
+}
+
+###
+
+# Verify token API
+GET http://localhost:8000/validate-token/
+Content-Type: application/json
+Authorization: Token d29aa84f53c18e947a58ed04a7bfe04864f88cc6
