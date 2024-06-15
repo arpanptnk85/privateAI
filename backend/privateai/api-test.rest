@@ -10,7 +10,7 @@ Content-Type: application/json
 ###
 
 # Signup API
-POST http://localhost:8000/signup/
+POST http://localhost:8000/auth/signup/
 Content-Type: application/json
 
 {
@@ -22,6 +22,6 @@ Content-Type: application/json
 ###
 
 # Verify token API
-GET http://localhost:8000/validate-token/
+GET http://localhost:8000/auth/validate-token/
 Content-Type: application/json
 Authorization: Token d29aa84f53c18e947a58ed04a7bfe04864f88cc6
