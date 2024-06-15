@@ -24,4 +24,4 @@ Content-Type: application/json
 # Verify token API
 GET http://localhost:8000/auth/validate-token/
 Content-Type: application/json
-Authorization: Token d29aa84f53c18e947a58ed04a7bfe04864f88cc6
+Authorization: Token  xxx
