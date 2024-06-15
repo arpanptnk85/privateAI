@@ -10,7 +10,7 @@ router.register(r'users', UserViewSet)
 
 urlpatterns = [
     path('api-privateai/', include(router.urls)),
-    path('login/', views.login),
+    path('auth/login/', views.login),
     path('signup/', views.signup),
     path('validate-token/', views.validate_token),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
